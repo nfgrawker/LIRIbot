@@ -5,7 +5,7 @@ const request = require("request")
 const Spotify = require("node-spotify-api")
 const moment = require("moment")
 
-const arg1 = process.argv[2]
+let arg1 = process.argv[2]
 let arg2 = process.argv[3]
 
 
@@ -39,40 +39,76 @@ function spotifySearch(){
         artists += ", "
       }
     }
-    console.log("Artist(s) : ",artists)
-    console.log("Song Name : ",data.tracks.items[0].name)
-    console.log("Album : ", data.tracks.items[0].album.name)
-    console.log("Preview URL : ", data.tracks.items[0].external_urls.spotify)
+    let write =
+`
+Artist(s) : ${artists}
+Song Name : ${data.tracks.items[0].name}
+Album : ${data.tracks.items[0].album.name}
+Preview URL : ${data.tracks.items[0].external_urls.spotify}
+-----------------
+`
+fs.appendFile("log.txt", `Command :${arg1}---    Movie Title :${arg2}`,function(){console.log("logged")})
+fs.appendFile("log.txt",write, function(){console.log("appended")})
   })
 }
 function movie(){
   let  url = "http://www.omdbapi.com/?t="+arg2+"&apikey="+ keys.keys.movies
-  console.log(keys.keys.movies)
   request(url, function (error, response, body) {
-  let information = JSON.parse(body)
-  console.log("Movie Title : ",information.Title)
-  console.log("Year Released ; ",information.Year)
-  console.log("IMDB Rating : ", information.Ratings[0].Value)
-  console.log("Rotten Tomatoes Rating : ",information.Ratings[1].Value)
-  console.log("Country : ", information.Country)
-  console.log("Language : ", information.Language)
-  console.log("Plot : ", information.Plot)
-  console.log("Actors : ",information.Actors)
+    if (error){
+      console.log(error)
+    }
+    else {
+      let information = JSON.parse(body)
+      if(!information.Ratings[1]){
+      information.Ratings.push({Value:"None Found"})
+    }
+      var data = (
+`
+Movie Title : ${information.Title}
+Year Released : ${information.Year}
+IMDB Rating : ${information.Ratings[0].Value}
+Rotten Tomatoes Rating : ${information.Ratings[1].Value}
+Country : ${information.Country}
+Language : ${information.Language}
+Plot : ${information.Plot}
+Actors : ${information.Actors}
+-----------
+`
+)
+  console.log(data)
+  fs.appendFile("log.txt", `Command :${arg1}---    Movie Title :${arg2}`,function(){console.log("logged")})
+  fs.appendFile("log.txt",data, function(){console.log("appended")})
+}
 })
 }
 
-if(arg1 == "concert-this"){
-  concert()
+
+function text(){
+  fs.readFile('random.txt', 'utf8',(err, data) => {
+  if (err) throw err;
+  console.log(data);
+  array = data.split(",")
+  arg1 = array[0]
+  arg2 = array[1]
+  start()
+})
 }
-else if (arg1 == "spotify-this-song"){
-  spotifySearch()
+
+function start(){
+  if(arg1 == "concert-this"){
+    concert()
+  }
+  else if (arg1 == "spotify-this-song"){
+    spotifySearch()
+  }
+  else if (arg1 == "movie-this") {
+    movie()
+  }
+  else if (arg1 == "do-what-it-says") {
+    text()
+  }
+  else{
+    console.log("did not understand your command")
+  }
 }
-else if (arg1 == "movie-this") {
-  movie()
-}
-else if (arg1 = "do-what-it-says") {
-  text()
-}
-else{
-  console.log("did not understand your command")
-}
+start()
