@@ -45,7 +45,21 @@ function spotifySearch(){
     console.log("Preview URL : ", data.tracks.items[0].external_urls.spotify)
   })
 }
-
+function movie(){
+  let  url = "http://www.omdbapi.com/?t="+arg2+"&apikey="+ keys.keys.movies
+  console.log(keys.keys.movies)
+  request(url, function (error, response, body) {
+  let information = JSON.parse(body)
+  console.log("Movie Title : ",information.Title)
+  console.log("Year Released ; ",information.Year)
+  console.log("IMDB Rating : ", information.Ratings[0].Value)
+  console.log("Rotten Tomatoes Rating : ",information.Ratings[1].Value)
+  console.log("Country : ", information.Country)
+  console.log("Language : ", information.Language)
+  console.log("Plot : ", information.Plot)
+  console.log("Actors : ",information.Actors)
+})
+}
 
 if(arg1 == "concert-this"){
   concert()
