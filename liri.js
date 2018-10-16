@@ -12,13 +12,19 @@ let arg2 = process.argv[3]
 function concert(){
   let  url = "https://rest.bandsintown.com/artists/"+arg2+"/events?app_id="+keys.keys.bands
   request(url, function (error, response, body) {
+  fs.appendFile("log.txt", `Command :${arg1}  Band Title :${arg2}`,function(){})
   let information = JSON.parse(body)
   for (i in information){
     var time = moment(information[i].datetime,"YYYY-MM-DDTHH:mm:ss").format("MM-DD-YYYY")
-    console.log("Venue Name: ",information[i].venue.name)
-    console.log("Location: ",information[i].venue.city,", ",information[i].venue.country)
-    console.log("Date: ",time)
-    console.log("----------------------")
+    var write =
+`
+Venue Name : ${information[i].venue.name}
+Location : ${information[i].venue.city}, ${information[i].venue.country}
+Date : ${time}
+---------------
+`
+console.log(write)
+fs.appendFile("log.txt",write, function(){})
     }
   });
 }
@@ -47,27 +53,33 @@ Album : ${data.tracks.items[0].album.name}
 Preview URL : ${data.tracks.items[0].external_urls.spotify}
 -----------------
 `
-fs.appendFile("log.txt", `Command :${arg1}---    Movie Title :${arg2}`,function(){console.log("logged")})
-fs.appendFile("log.txt",write, function(){console.log("appended")})
+console.log(write)
+fs.appendFile("log.txt", `Command :${arg1}    Song Title :${arg2}`,function(){})
+fs.appendFile("log.txt",write, function(){})
   })
 }
 function movie(){
   let  url = "http://www.omdbapi.com/?t="+arg2+"&apikey="+ keys.keys.movies
   request(url, function (error, response, body) {
+    rotten = "None Found"
+    imdb = "None Found"
     if (error){
       console.log(error)
     }
     else {
       let information = JSON.parse(body)
-      if(!information.Ratings[1]){
-      information.Ratings.push({Value:"None Found"})
-    }
+      if(information.Ratings[1]){
+        rotten = information.Ratings[1].Value
+      }
+      if(information.Ratings[0]){
+        imdb = information.Ratings[0].Value
+      }
       var data = (
 `
 Movie Title : ${information.Title}
 Year Released : ${information.Year}
-IMDB Rating : ${information.Ratings[0].Value}
-Rotten Tomatoes Rating : ${information.Ratings[1].Value}
+IMDB Rating : ${imdb}
+Rotten Tomatoes Rating : ${rotten}
 Country : ${information.Country}
 Language : ${information.Language}
 Plot : ${information.Plot}
@@ -76,8 +88,8 @@ Actors : ${information.Actors}
 `
 )
   console.log(data)
-  fs.appendFile("log.txt", `Command :${arg1}---    Movie Title :${arg2}`,function(){console.log("logged")})
-  fs.appendFile("log.txt",data, function(){console.log("appended")})
+  fs.appendFile("log.txt", `Command :${arg1}   Movie Title :${arg2}`,function(){})
+  fs.appendFile("log.txt",data, function(){})
 }
 })
 }

@@ -1,21 +1,488 @@
+Command :spotify-this-song    Movie Title :wrecking ball
+Artist(s) : Miley Cyrus
+Song Name : Wrecking Ball
+Album : Bangerz (Deluxe Version)
+Preview URL : https://open.spotify.com/track/2vwlzO0Qp8kfEtzTsCXfyE
+-----------------
+Command :movie-this   Movie Title :Sixth Sense
+Movie Title : Sixth Sense
+Year Released : 2013
+IMDB Rating : None Found
+Rotten Tomatoes Rating : None Found
+Country : UK
+Language : English
+Plot : Nathan gets the call that his pregnant wife has gone into labour. On his way to pick her up and take her to the hospital, he accidentally runs someone over. Rather than stop to help his ...
+Actors : Liz Ball, Grace Davis, Santiago Mosquera
+-----------
+Command :concert-this  Movie Title :maroon 5
+Venue Name : Madison Square Garden
+Location : New York, United States
+Date : 10-15-2018
+---------------
 
-Movie Title : The Ghost Busters
-Year Released : 1975
-IMDB Rating : 7.6/10
+Venue Name : Mandalay Bay Events Center
+Location : Las Vegas, United States
+Date : 12-30-2018
+---------------
+
+Venue Name : Mandalay Bay Events Center
+Location : Las Vegas, United States
+Date : 12-31-2018
+---------------
+
+Venue Name : Brisbane Entertainment Centre
+Location : Brisbane, Australia
+Date : 02-19-2019
+---------------
+
+Venue Name : Qudos Bank Arena
+Location : Sydney, Australia
+Date : 02-21-2019
+---------------
+
+Venue Name : Rod Laver Arena
+Location : Melbourne, Australia
+Date : 02-22-2019
+---------------
+
+Venue Name : TBA
+Location : Kaohsiung City, -
+Date : 03-01-2019
+---------------
+
+Venue Name : Gocheok Sky Dome
+Location : Seoul, -
+Date : 02-27-2019
+---------------
+
+Venue Name : MALL OF ASIA ARENA
+Location : Manila, -
+Date : 03-05-2019
+---------------
+
+Venue Name : NATIONAL STADIUM
+Location : Singapore, -
+Date : 03-07-2019
+---------------
+
+Venue Name : CHALLENGER HALL
+Location : Bangkok, -
+Date : 03-09-2019
+---------------
+
+Venue Name : Mollenpark
+Location : Aalborg, Denmark
+Date : 06-01-2019
+---------------
+
+Venue Name : Lanxess Arena
+Location : Cologne, Germany
+Date : 06-03-2019
+---------------
+
+Venue Name : O2 ARENA
+Location : Prague, Czech Republic
+Date : 06-05-2019
+---------------
+
+Venue Name : TBA
+Location : Macau, -
+Date : 03-03-2019
+---------------
+
+Venue Name : Tauron Arena
+Location : Kraków, Poland
+Date : 06-06-2019
+---------------
+
+Venue Name : TOKYO DOME
+Location : Tokyo, -
+Date : 02-25-2019
+---------------
+
+Venue Name : Ziggo Dome
+Location : Amsterdam, Netherlands
+Date : 06-10-2019
+---------------
+
+Venue Name : AccorHotels Arena
+Location : Paris, France
+Date : 06-11-2019
+---------------
+Command :spotify-this-song    Movie Title :wrecking ball
+Artist(s) : Miley Cyrus
+Song Name : Wrecking Ball
+Album : Bangerz (Deluxe Version)
+Preview URL : https://open.spotify.com/track/2vwlzO0Qp8kfEtzTsCXfyE
+-----------------
+Command :concert-this  Movie Title :maroon 5
+Venue Name : Mandalay Bay Events Center
+Location : Las Vegas, United States
+Date : 12-30-2018
+---------------
+
+Venue Name : Madison Square Garden
+Location : New York, United States
+Date : 10-15-2018
+---------------
+
+Venue Name : Mandalay Bay Events Center
+Location : Las Vegas, United States
+Date : 12-31-2018
+---------------
+
+Venue Name : Brisbane Entertainment Centre
+Location : Brisbane, Australia
+Date : 02-19-2019
+---------------
+
+Venue Name : Rod Laver Arena
+Location : Melbourne, Australia
+Date : 02-22-2019
+---------------
+
+Venue Name : TOKYO DOME
+Location : Tokyo, -
+Date : 02-25-2019
+---------------
+
+Venue Name : Gocheok Sky Dome
+Location : Seoul, -
+Date : 02-27-2019
+---------------
+
+Venue Name : TBA
+Location : Kaohsiung City, -
+Date : 03-01-2019
+---------------
+
+Venue Name : MALL OF ASIA ARENA
+Location : Manila, -
+Date : 03-05-2019
+---------------
+
+Venue Name : NATIONAL STADIUM
+Location : Singapore, -
+Date : 03-07-2019
+---------------
+
+Venue Name : TBA
+Location : Macau, -
+Date : 03-03-2019
+---------------
+
+Venue Name : CHALLENGER HALL
+Location : Bangkok, -
+Date : 03-09-2019
+---------------
+
+Venue Name : Mollenpark
+Location : Aalborg, Denmark
+Date : 06-01-2019
+---------------
+
+Venue Name : Lanxess Arena
+Location : Cologne, Germany
+Date : 06-03-2019
+---------------
+
+Venue Name : O2 ARENA
+Location : Prague, Czech Republic
+Date : 06-05-2019
+---------------
+
+Venue Name : Qudos Bank Arena
+Location : Sydney, Australia
+Date : 02-21-2019
+---------------
+
+Venue Name : Ziggo Dome
+Location : Amsterdam, Netherlands
+Date : 06-10-2019
+---------------
+
+Venue Name : Tauron Arena
+Location : Kraków, Poland
+Date : 06-06-2019
+---------------
+
+Venue Name : AccorHotels Arena
+Location : Paris, France
+Date : 06-11-2019
+---------------
+
+Movie Title : Sixth Sense
+Year Released : 2013
+IMDB Rating : None Found
 Rotten Tomatoes Rating : None Found
+Country : UK
+Language : English
+Plot : Nathan gets the call that his pregnant wife has gone into labour. On his way to pick her up and take her to the hospital, he accidentally runs someone over. Rather than stop to help his ...
+Actors : Liz Ball, Grace Davis, Santiago Mosquera
+-----------
+Command :movie-this   Movie Title :Sixth SenseCommand :movie-this   Movie Title :good will hunting
+Movie Title : Good Will Hunting
+Year Released : 1997
+IMDB Rating : 8.3/10
+Rotten Tomatoes Rating : 97%
 Country : USA
 Language : English
-Plot : Two guys and their pet gorilla hunt spooks.
-Actors : Forrest Tucker, Larry Storch, Bob Burns
+Plot : Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.
+Actors : Matt Damon, Ben Affleck, Stellan Skarsgård, John Mighton
 -----------
-Ghost Busters
-Movie Title : The Ghost Busters
-Year Released : 1975
-IMDB Rating : 7.6/10
-Rotten Tomatoes Rating : None Found
+Command :movie-this   Movie Title :good will hunting
+Movie Title : Good Will Hunting
+Year Released : 1997
+IMDB Rating : 8.3/10
+Rotten Tomatoes Rating : 97%
 Country : USA
 Language : English
-Plot : Two guys and their pet gorilla hunt spooks.
-Actors : Forrest Tucker, Larry Storch, Bob Burns
+Plot : Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.
+Actors : Matt Damon, Ben Affleck, Stellan Skarsgård, John Mighton
 -----------
-movie-this Ghost Busters
+Command :movie-this   Movie Title :Sixth Sense
+Movie Title : Sixth Sense
+Year Released : 2013
+IMDB Rating : None Found
+Rotten Tomatoes Rating : None Found
+Country : UK
+Language : English
+Plot : Nathan gets the call that his pregnant wife has gone into labour. On his way to pick her up and take her to the hospital, he accidentally runs someone over. Rather than stop to help his ...
+Actors : Liz Ball, Grace Davis, Santiago Mosquera
+-----------
+Command :concert-this  Movie Title :maroon 5
+Venue Name : Madison Square Garden
+Location : New York, United States
+Date : 10-15-2018
+---------------
+
+Venue Name : Mandalay Bay Events Center
+Location : Las Vegas, United States
+Date : 12-30-2018
+---------------
+
+Venue Name : Mandalay Bay Events Center
+Location : Las Vegas, United States
+Date : 12-31-2018
+---------------
+
+Venue Name : Rod Laver Arena
+Location : Melbourne, Australia
+Date : 02-22-2019
+---------------
+
+Venue Name : TOKYO DOME
+Location : Tokyo, -
+Date : 02-25-2019
+---------------
+
+Venue Name : Gocheok Sky Dome
+Location : Seoul, -
+Date : 02-27-2019
+---------------
+
+Venue Name : TBA
+Location : Kaohsiung City, -
+Date : 03-01-2019
+---------------
+
+Venue Name : Brisbane Entertainment Centre
+Location : Brisbane, Australia
+Date : 02-19-2019
+---------------
+
+Venue Name : TBA
+Location : Macau, -
+Date : 03-03-2019
+---------------
+
+Venue Name : MALL OF ASIA ARENA
+Location : Manila, -
+Date : 03-05-2019
+---------------
+
+Venue Name : NATIONAL STADIUM
+Location : Singapore, -
+Date : 03-07-2019
+---------------
+
+Venue Name : Qudos Bank Arena
+Location : Sydney, Australia
+Date : 02-21-2019
+---------------
+
+Venue Name : Mollenpark
+Location : Aalborg, Denmark
+Date : 06-01-2019
+---------------
+
+Venue Name : Lanxess Arena
+Location : Cologne, Germany
+Date : 06-03-2019
+---------------
+
+Venue Name : CHALLENGER HALL
+Location : Bangkok, -
+Date : 03-09-2019
+---------------
+
+Venue Name : Tauron Arena
+Location : Kraków, Poland
+Date : 06-06-2019
+---------------
+
+Venue Name : O2 ARENA
+Location : Prague, Czech Republic
+Date : 06-05-2019
+---------------
+
+Venue Name : Ziggo Dome
+Location : Amsterdam, Netherlands
+Date : 06-10-2019
+---------------
+
+Venue Name : AccorHotels Arena
+Location : Paris, France
+Date : 06-11-2019
+---------------
+Command :spotify-this-song    ong Title :wrecking ball
+Artist(s) : Miley Cyrus
+Song Name : Wrecking Ball
+Album : Bangerz (Deluxe Version)
+Preview URL : https://open.spotify.com/track/2vwlzO0Qp8kfEtzTsCXfyE
+-----------------
+Command :spotify-this-song    Song Title :wrecking ball
+Artist(s) : Miley Cyrus
+Song Name : Wrecking Ball
+Album : Bangerz (Deluxe Version)
+Preview URL : https://open.spotify.com/track/2vwlzO0Qp8kfEtzTsCXfyE
+-----------------
+Command :concert-this  Band Title :maroon 5
+Venue Name : Madison Square Garden
+Location : New York, United States
+Date : 10-15-2018
+---------------
+
+Venue Name : Mandalay Bay Events Center
+Location : Las Vegas, United States
+Date : 12-31-2018
+---------------
+
+Venue Name : Mandalay Bay Events Center
+Location : Las Vegas, United States
+Date : 12-30-2018
+---------------
+
+Venue Name : TOKYO DOME
+Location : Tokyo, -
+Date : 02-25-2019
+---------------
+
+Venue Name : Gocheok Sky Dome
+Location : Seoul, -
+Date : 02-27-2019
+---------------
+
+Venue Name : TBA
+Location : Kaohsiung City, -
+Date : 03-01-2019
+---------------
+
+Venue Name : TBA
+Location : Macau, -
+Date : 03-03-2019
+---------------
+
+Venue Name : Qudos Bank Arena
+Location : Sydney, Australia
+Date : 02-21-2019
+---------------
+
+Venue Name : Brisbane Entertainment Centre
+Location : Brisbane, Australia
+Date : 02-19-2019
+---------------
+
+Venue Name : CHALLENGER HALL
+Location : Bangkok, -
+Date : 03-09-2019
+---------------
+
+Venue Name : Mollenpark
+Location : Aalborg, Denmark
+Date : 06-01-2019
+---------------
+
+Venue Name : Lanxess Arena
+Location : Cologne, Germany
+Date : 06-03-2019
+---------------
+
+Venue Name : O2 ARENA
+Location : Prague, Czech Republic
+Date : 06-05-2019
+---------------
+
+Venue Name : Tauron Arena
+Location : Kraków, Poland
+Date : 06-06-2019
+---------------
+
+Venue Name : Ziggo Dome
+Location : Amsterdam, Netherlands
+Date : 06-10-2019
+---------------
+
+Venue Name : AccorHotels Arena
+Location : Paris, France
+Date : 06-11-2019
+---------------
+
+Venue Name : MALL OF ASIA ARENA
+Location : Manila, -
+Date : 03-05-2019
+---------------
+
+Venue Name : Rod Laver Arena
+Location : Melbourne, Australia
+Date : 02-22-2019
+---------------
+
+Venue Name : NATIONAL STADIUM
+Location : Singapore, -
+Date : 03-07-2019
+---------------
+Command :movie-this   Movie Title :Sixth Sense
+Movie Title : Sixth Sense
+Year Released : 2013
+IMDB Rating : None Found
+Rotten Tomatoes Rating : None Found
+Country : UK
+Language : English
+Plot : Nathan gets the call that his pregnant wife has gone into labour. On his way to pick her up and take her to the hospital, he accidentally runs someone over. Rather than stop to help his ...
+Actors : Liz Ball, Grace Davis, Santiago Mosquera
+-----------
+Command :movie-this   Movie Title :good will hunting
+Movie Title : Good Will Hunting
+Year Released : 1997
+IMDB Rating : 8.3/10
+Rotten Tomatoes Rating : 97%
+Country : USA
+Language : English
+Plot : Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.
+Actors : Matt Damon, Ben Affleck, Stellan Skarsgård, John Mighton
+-----------
+Command :spotify-this-song    Song Title :"I Want it That Way
+
+Artist(s) : Backstreet Boys
+Song Name : I Want It That Way
+Album : The Hits--Chapter One
+Preview URL : https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+-----------------
+
+Artist(s) : Backstreet Boys
+Song Name : I Want It That Way
+Album : The Hits--Chapter One
+Preview URL : https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+-----------------
+Command :spotify-this-song    Song Title :"I Want it That Way
