@@ -1,14 +1,15 @@
+// file imports
 require("dotenv").config();
 const keys  =  require("./keys.js")
 const fs = require("fs")
 const request = require("request")
 const Spotify = require("node-spotify-api")
 const moment = require("moment")
-
+// two command line inputs
 let arg1 = process.argv[2]
 let arg2 = process.argv[3]
 
-
+// if want concer-this
 function concert(){
   let  url = "https://rest.bandsintown.com/artists/"+arg2+"/events?app_id="+keys.keys.bands
   request(url, function (error, response, body) {
@@ -16,6 +17,7 @@ function concert(){
   let information = JSON.parse(body)
   for (i in information){
     var time = moment(information[i].datetime,"YYYY-MM-DDTHH:mm:ss").format("MM-DD-YYYY")
+// string literal so we can console and fileAppend at same time
     var write =
 `
 Venue Name : ${information[i].venue.name}
@@ -28,6 +30,7 @@ fs.appendFile("log.txt",write, function(){})
     }
   });
 }
+// function for spotify-this-song
 function spotifySearch(){
   var song = arg2
   var artists = ""
@@ -58,6 +61,7 @@ fs.appendFile("log.txt", `Command :${arg1}    Song Title :${arg2}`,function(){})
 fs.appendFile("log.txt",write, function(){})
   })
 }
+// function for movie this
 function movie(){
   let  url = "http://www.omdbapi.com/?t="+arg2+"&apikey="+ keys.keys.movies
   request(url, function (error, response, body) {
@@ -94,7 +98,7 @@ Actors : ${information.Actors}
 })
 }
 
-
+// function for do-what-it-says
 function text(){
   fs.readFile('random.txt', 'utf8',(err, data) => {
   if (err) throw err;
@@ -105,7 +109,7 @@ function text(){
   start()
 })
 }
-
+// if statement to take over at start
 function start(){
   if(arg1 == "concert-this"){
     concert()
